@@ -30,6 +30,22 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
+    
+    // Run less to generate custom CSS
+    less: {		
+		development: {
+			files: {
+				// destination file and source file
+				'<%= yeoman.dist %>/styles/agency.css': '<%= yeoman.app %>/styles/less/agency.less' 
+				},
+
+			options: {
+				compress: true,
+				yuicompress: true,
+				optimization: 2
+			}
+		}
+    },
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
@@ -380,7 +396,10 @@ module.exports = function (grunt) {
             '*.{ico,png,txt}',
             '*.html',
             'images/{,*/}*.{webp}',
-            'styles/fonts/{,*/}*.*'
+            'js/{,*/}*.js',
+            'mail/{,*/}*.php',
+            'styles/fonts/{,*/}*.*',
+            'styles/font-awesome/{,*/}*.*'
           ]
         }, {
           expand: true,
@@ -471,10 +490,12 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'less'
   ]);
 
   grunt.registerTask('default', [
+	'less',
     'newer:jshint',
     'newer:jscs',
     'test',
