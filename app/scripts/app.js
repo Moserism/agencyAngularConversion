@@ -32,45 +32,46 @@ var productImageDirectory = '../images/portfolio/';
 
 var portfolioList = [
 	{
-		url: 		'../views/modals/modal_1.html',
-		name: 		'Round Icons',
-		category: 	'Graphic Design',
-		image:		productImageDirectory + 'roundicons.png'
+		modal: 'portfolioModal1',
+		url: '../views/modals/modal_1.html',
+		name: 'Round Icons',
+		category: 'Graphic Design',
+		image: productImageDirectory + 'roundicons.png'
 	},
 	
 	{
-		url: 		'../views/modals/modal_2.html',
-		name: 		'',
-		category: 	'',
-		image:		''
+		modal: 		'portfolioModal2',
+		name: 		'Startup Framework',
+		category: 	'Website Design',
+		image:		productImageDirectory + 'startup-framework.png'
 	},
 	
 	{
-		url: 		'../views/modals/modal_3.html',
-		name: 		'',
-		category: 	'',
-		image:		''
+		modal: 		'portfolioModal3',
+		name: 		'Treehouse',
+		category: 	'Website Design',
+		image:		productImageDirectory + 'treehouse.png'
 	},
 	
 	{
-		url: 		'../views/modals/modal_4.html',
-		name: 		'',
-		category: 	'',
-		image:		''
+		modal: 		'portfolioModal4',
+		name: 		'Golden',
+		category: 	'Website Design',
+		image:		productImageDirectory + 'golden.png'
 	},
 	
 	{
-		url: 		'../views/modals/modal_5.html',
-		name: 		'',
-		category: 	'',
-		image:		''
+		modal: 		'portfolioModal5',
+		name: 		'Escape',
+		category: 	'Website Design',
+		image:		productImageDirectory + 'escape.png'
 	},
 	
 	{
-		url: 		'../views/modals/modal_6.html',
-		name: 		'',
-		category: 	'',
-		image:		''
+		modal: 		'portfolioModal6',
+		name: 		'Dreams',
+		category: 	'Website Design',
+		image:		productImageDirectory + 'dreams.png'
 	}
 ];
 
@@ -79,5 +80,5 @@ app.controller('ServicesController', function () {
 });
 
 app.controller('PortfolioController', function(){
-	this.portfolio = portfolioList;
+	this.items = portfolioList;
 });

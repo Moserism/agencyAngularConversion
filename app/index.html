@@ -113,8 +113,14 @@
 
     <footer class="bg-light-gray" ng-include="'views/footer.html'"></footer>
         
-    <!-- Portfolio Modals -->
+	<!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
+    
+    <!-- <span ng-controller="PortfolioController as portfolio">
+	    <span ng-repeat="item in portfolio.items">
+	    	<div ng-id="{{item.modal}}" ng-include="{{item.url}}" class="portfolio-modal modal fade"  tabindex="-1" role="dialog" aria-hidden="true" 
+	    </span>
+    </span> -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_1.html'"></div>
