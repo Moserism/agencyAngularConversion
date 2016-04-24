@@ -30,6 +30,7 @@ var serviceList = [{
 
 var productImageDirectory = '../images/portfolio/';
 var teamImageDirectory = '../images/team/';
+var clientImageDirectory = '../images/logos/';
 
 var portfolioList = [
 	{
@@ -136,6 +137,29 @@ var teamList = [
 	}
 ];
 
+var clientList = [
+	{
+		name:	'Envato - Top digital assets and services',
+		url:	'http://envato.com/index.html',
+		image:	clientImageDirectory + 'envato.jpg',
+	},
+	{
+		name:	'Designmodo: Web Design Blog and Shop',
+		url:	'http://designmodo.com/',
+		image:	clientImageDirectory + 'designmodo.jpg',
+	},
+	{
+		name:	'Website Templates & WordPress Themes from ThemeForest',
+		url:	'http://themeforest.net/',
+		image:	clientImageDirectory + 'themeforest.jpg',
+	},
+	{
+		name:	'Fonts, Graphics, Themes and More ~ Creative Market',
+		url:	'http://creativemarket.com/',
+		image:	clientImageDirectory + 'creative-market.jpg',
+	}
+];
+
 app.controller('ServicesController', function () {
 	this.services = serviceList;
 });
@@ -146,4 +170,8 @@ app.controller('PortfolioController', function(){
 
 app.controller('TeamController', function (){
 	this.persons = teamList;
+});
+
+app.controller('ClientController', function(){
+	this.clients = clientList;
 });
