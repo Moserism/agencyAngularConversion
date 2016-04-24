@@ -1,12 +1,9 @@
 # agency-angular-conversion
 
-<<<<<<< HEAD
 my conversion of the Agency bootstrap template to one that uses angular.js
 
 # [Yeoman](https://yeoman.io)
 
-=======
->>>>>>> origin/dev
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.15.1.
 
@@ -43,8 +40,4 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-<<<<<<< HEAD
 Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
-=======
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-agency/blob/gh-pages/LICENSE) license.
->>>>>>> origin/dev
