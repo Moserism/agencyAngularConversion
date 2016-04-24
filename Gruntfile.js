@@ -36,7 +36,7 @@ module.exports = function (grunt) {
 		development: {
 			files: {
 				// destination file and source file
-				'<%= yeoman.dist %>/styles/agency.css': '<%= yeoman.app %>/styles/less/agency.less' 
+				'<%= yeoman.app %>/styles/agency.css': '<%= yeoman.app %>/styles/less/agency.less' 
 				},
 
 			options: {
@@ -398,7 +398,7 @@ module.exports = function (grunt) {
             'images/{,*/}*.{webp}',
             'js/{,*/}*.js',
             'mail/{,*/}*.php',
-            'styles/fonts/{,*/}*.*',
+            //'styles/fonts/{,*/}*.*',
             'styles/font-awesome/{,*/}*.*'
           ]
         }, {
@@ -476,6 +476,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
+  	'less',
     'clean:dist',
     'wiredep',
     'useminPrepare',
@@ -490,12 +491,10 @@ module.exports = function (grunt) {
     'uglify',
     'filerev',
     'usemin',
-    'htmlmin',
-    'less'
+    'htmlmin'
   ]);
 
   grunt.registerTask('default', [
-	'less',
     'newer:jshint',
     'newer:jscs',
     'test',
