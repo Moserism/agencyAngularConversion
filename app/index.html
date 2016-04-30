@@ -83,21 +83,13 @@
     </nav>
 
     <!-- Header -->
-    <header style="background-image: url(images/header-bg.jpg) !important">
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-            </div>
-        </div>
-    </header>
+    <header style="background-image: url(images/header-bg.jpg) !important" ng-include="'views/index-header.html'"></header>
 
     <!-- Services Section -->
     <section id="services" ng-include="'views/services.html'"></section>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray" ng-include="'views/portfolio.html'"></section>
+    <section id="portfolio" class="bg-light-gray" ng-include="'views/portfolio-index.html'"></section>
 
     <!-- About Section -->
     <section id="about" ng-include="'views/about.html'"></section>

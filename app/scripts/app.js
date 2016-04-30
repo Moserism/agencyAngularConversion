@@ -88,10 +88,6 @@ var teamList = [
 				icon: 'fa-twitter'
 			},
 			{
-				url:  'http://www.facebook.com/',
-				icon: 'fa-facebook'
-			},
-			{
 				url:  'http://www.linkedin.com/',
 				icon: 'fa-linkedin'
 			}
@@ -160,6 +156,34 @@ var clientList = [
 	}
 ];
 
+var timelineImagePath = '../images/about/';
+var timelineList =[
+	{
+		heading:	'2009-2011',
+		subheading:	'Our Humble Beginnings',
+		text:		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+		image:		timelineImagePath + '1.jpg',
+	},
+	{
+		heading:	'March 2011',
+		subheading:	'An Agency is Born',
+		text:		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+		image:		timelineImagePath + '2.jpg',
+	},
+	{
+		heading:	'December 2012',
+		subheading:	'Transition to Full Service',
+		text:		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+		image:		timelineImagePath + '3.jpg',
+	},
+	{
+		heading:	'July 2014',
+		subheading:	'Phase Two Expansion',
+		text:		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!',
+		image:		timelineImagePath + '4.jpg',
+	}
+];
+
 app.controller('ServicesController', function () {
 	this.services = serviceList;
 });
@@ -174,4 +198,8 @@ app.controller('TeamController', function (){
 
 app.controller('ClientController', function(){
 	this.clients = clientList;
+});
+
+app.controller('TimelineController', function(){
+	this.time = timelineList;
 });

@@ -1,0 +1,44 @@
+[
+	{
+		modal: 		'portfolioModal1',
+		url: 		'../views/modals/modal_1.html',
+		name: 		'Round Icons',
+		category: 	'Graphic Design',
+		image: 		'../images/portfolio/roundicons.png'
+	},
+	
+	{
+		modal: 		'portfolioModal2',
+		name: 		'Startup Framework',
+		category: 	'Website Design',
+		image:		'../../images/portfolio/startup-framework.png'
+	},
+	
+	{
+		modal: 		'portfolioModal3',
+		name: 		'Treehouse',
+		category: 	'Website Design',
+		image:		'../../images/portfolio/treehouse.png'
+	},
+	
+	{
+		modal: 		'portfolioModal4',
+		name: 		'Golden',
+		category: 	'Website Design',
+		image:		'../../images/portfolio/golden.png'
+	},
+	
+	{
+		modal: 		'portfolioModal5',
+		name: 		'Escape',
+		category: 	'Website Design',
+		image:		'../../images/portfolio/escape.png'
+	},
+	
+	{
+		modal: 		'portfolioModal6',
+		name: 		'Dreams',
+		category: 	'Website Design',
+		image:		'../../images/portfolio/dreams.png'
+	}
+]

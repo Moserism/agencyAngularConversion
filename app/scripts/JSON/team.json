@@ -1,0 +1,59 @@
+[
+	{
+		name:	'Kay Garland',
+		job:	'Lead Designer',
+		image:	teamImageDirectory + '1.jpg',
+		sites: [
+			{
+				url:  'http://twitter.com/',
+				icon: 'fa-twitter'
+			},
+			{
+				url:  'http://www.facebook.com/',
+				icon: 'fa-facebook'
+			},
+			{
+				url:  'http://www.linkedin.com/',
+				icon: 'fa-linkedin'
+			}
+		]
+	},
+	{
+		name:	'Larry Parker',
+		job:	'Lead Marketer',
+		image:	teamImageDirectory + '2.jpg',
+		sites: [
+			{
+				url:  'http://twitter.com/',
+				icon: 'fa-twitter'
+			},
+			{
+				url:  'http://www.facebook.com/',
+				icon: 'fa-facebook'
+			},
+			{
+				url:  'http://www.linkedin.com/',
+				icon: 'fa-linkedin'
+			}
+		]
+	},
+	{
+		name:	'Diana Pertersen',
+		job:	'Lead Developer',
+		image:	teamImageDirectory + '3.jpg',
+		sites: [
+			{
+				url:  'http://angularjs.org',
+				icon: 'fa-twitter'
+			},
+			{
+				url:  'http://github.com/',
+				icon: 'fa-github'
+			},
+			{
+				url:  'http://www.linkedin.com/',
+				icon: 'fa-linkedin'
+			}
+		]
+	}
+];

@@ -1,0 +1,22 @@
+[
+	{
+		name:	'Envato - Top digital assets and services',
+		url:	'http://envato.com/index.html',
+		image:	clientImageDirectory + 'envato.jpg',
+	},
+	{
+		name:	'Designmodo: Web Design Blog and Shop',
+		url:	'http://designmodo.com/',
+		image:	clientImageDirectory + 'designmodo.jpg',
+	},
+	{
+		name:	'Website Templates & WordPress Themes from ThemeForest',
+		url:	'http://themeforest.net/',
+		image:	clientImageDirectory + 'themeforest.jpg',
+	},
+	{
+		name:	'Fonts, Graphics, Themes and More ~ Creative Market',
+		url:	'http://creativemarket.com/',
+		image:	clientImageDirectory + 'creative-market.jpg',
+	}
+]
