@@ -1,0 +1,26 @@
+[
+	{ 
+		"heading": "2009-2011", 
+		"subheading": "Our Humble Beginnings", 
+		"text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!", 
+		"image": "images/about/1.jpg"
+	},
+	{
+		"heading":	"March 2011",
+		"subheading":	"An Agency is Born",
+		"text":		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!",
+		"image":		"images/about/2.jpg"
+	},
+	{
+		"heading":	"December 2012",
+		"subheading":	"Transition to Full Service",
+		"text":		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!",
+		"image":		"images/about/3.jpg"
+	},
+	{
+		"heading":	"July 2014",
+		"subheading":	"Phase Two Expansion",
+		"text":		"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!",
+		"image":		"images/about/4.jpg"
+	}
+]

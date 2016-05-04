@@ -1,44 +1,49 @@
 [
 	{
-		modal: 		'portfolioModal1',
-		url: 		'../views/modals/modal_1.html',
-		name: 		'Round Icons',
-		category: 	'Graphic Design',
-		image: 		'../images/portfolio/roundicons.png'
+		"id": 		"portfolioModal1",
+		"url": 			"views/modals/modal_1.html",
+		"name": 		"Round Icons",
+		"category": 	"Graphic Design",
+		"image": 		"images/portfolio/roundicons.png"
 	},
 	
 	{
-		modal: 		'portfolioModal2',
-		name: 		'Startup Framework',
-		category: 	'Website Design',
-		image:		'../../images/portfolio/startup-framework.png'
+		"id": 		"portfolioModal2",
+		"url": 			"views/modals/modal_2.html",
+		"name": 		"Startup Framework",
+		"category": 	"Website Design",
+		"image":		"images/portfolio/startup-framework.png"
 	},
 	
 	{
-		modal: 		'portfolioModal3',
-		name: 		'Treehouse',
-		category: 	'Website Design',
-		image:		'../../images/portfolio/treehouse.png'
+		"id": 		"portfolioModal3",
+		"url": 			"views/modals/modal_3.html",
+		"name": 		"Treehouse",
+		"category": 	"Website Design",
+		"image":		"images/portfolio/treehouse.png"
 	},
 	
 	{
-		modal: 		'portfolioModal4',
-		name: 		'Golden',
-		category: 	'Website Design',
-		image:		'../../images/portfolio/golden.png'
+		"id": 		"portfolioModal4",
+		"url": 			"views/modals/modal_4.html",
+		"name": 		"Golden",
+		"category": 	"Website Design",
+		"image":		"images/portfolio/golden.png"
 	},
 	
 	{
-		modal: 		'portfolioModal5',
-		name: 		'Escape',
-		category: 	'Website Design',
-		image:		'../../images/portfolio/escape.png'
+		"id": 		"portfolioModal5",
+		"url": 			"views/modals/modal_5.html",
+		"name": 		"Escape",
+		"category": 	"Website Design",
+		"image":		"images/portfolio/escape.png"
 	},
 	
 	{
-		modal: 		'portfolioModal6',
-		name: 		'Dreams',
-		category: 	'Website Design',
-		image:		'../../images/portfolio/dreams.png'
+		"id": 		"portfolioModal6",
+		"url": 			"views/modals/modal_6.html",
+		"name": 		"Dreams",
+		"category": 	"Website Design",
+		"image":		"images/portfolio/dreams.png"
 	}
 ]

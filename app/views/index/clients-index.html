@@ -1,0 +1,11 @@
+<aside class="clients">
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-3 col-sm-6" ng-repeat="client in clientCtrl.clients">
+	            <a ng-href="{{client.url}}" target="_blank">
+	                <img ng-src="{{client.image}}" class="img-responsive img-centered" alt="{{client.name}}">
+	            </a>
+	        </div>
+	    </div>
+	</div>
+</aside>

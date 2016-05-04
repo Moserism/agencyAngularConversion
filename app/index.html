@@ -83,54 +83,39 @@
     </nav>
 
     <!-- Header -->
-    <header ng-include="'views/index-header.html'"></header>
+    <header>
+		<div class="container">
+			<div class="intro-text">
+			    <div class="intro-lead-in">Welcome To Our Studio!</div>
+			    <div class="intro-heading">It's Nice To Meet You</div>
+			    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+			</div>
+		</div>
+	</header>
 
     <!-- Services Section -->
-    <section id="services" ng-include="'views/services.html'"></section>
+    <services-index></services-index>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray" ng-include="'views/portfolio-index.html'"></section>
+    <portfolio-index></portfolio-index>
 
     <!-- About Section -->
-    <section id="about" ng-include="'views/about.html'"></section>
+    <about-index></about-index>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray" ng-include="'views/team.html'"></section>
+    <team-index></team-index>
 
     <!-- Clients Aside -->
-    <aside class="clients" ng-include="'views/clients.html'"></aside>
+    <client-index></client-index>
     
     <!-- Contact Section -->
-    <section id="contact" ng-include="'views/contact.html'"></section>
+    <contact-form></contact-form>
 
-    <footer class="bg-light-gray" ng-include="'views/footer.html'"></footer>
-        
-	<!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-    
-    <!-- <span ng-controller="PortfolioController as portfolio">
-	    <span ng-repeat="item in portfolio.items">
-	    	<div ng-id="{{item.modal}}" ng-include="{{item.url}}" class="portfolio-modal modal fade"  tabindex="-1" role="dialog" aria-hidden="true" 
-	    </span>
-    </span> -->
+	<!-- Footer Section -->
+    <footer-alt></footer-alt>
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_1.html'"></div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_2.html'"></div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_3.html'"></div>
-
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_4.html'"></div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_5.html'"></div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true" ng-include="'views/modals/modal_6.html'"></div>
+    <!-- Portfolio Modals -->
+    <portfolio-modals></portfolio-modals>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -166,6 +151,7 @@
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
     <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/index.js"></script>
     <!-- endbuild -->
 </body>
 </html>
