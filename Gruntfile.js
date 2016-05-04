@@ -402,6 +402,7 @@ module.exports = function (grunt) {
             'js/{,*/}*.js',
             'mail/{,*/}*.php',
             //'styles/fonts/{,*/}*.*',
+            'scripts/JSON/{,*/}*.json',
             'styles/font-awesome/{,*/}*.*',
             'views/{,*/}*.html'
           ]
