@@ -20,7 +20,7 @@
 			controller: function (){
 				var item = this;
 				item.services = [];
-				$http.get('/scripts/JSON/services.json')
+				$http.get('scripts/JSON/services.json')
 					.success(function(data){
 						item.services = data;
 					})
@@ -42,7 +42,7 @@
 		
 				content.items = [];
 		
-				$http.get('/scripts/JSON/portfolio.json')
+				$http.get('scripts/JSON/portfolio.json')
 					.success(function(data){
 						content.items = data;
 					});
@@ -58,7 +58,7 @@
 			controller: function(){
 				var team = this;
 				team.persons = [];
-				$http.get('/scripts/JSON/team.json').success(function(data){
+				$http.get('scripts/JSON/team.json').success(function(data){
 					team.persons=data;
 				})
 				.error(function(){
@@ -76,7 +76,7 @@
 			controller: function(){
 				var logos = this;
 				logos.clients = [];
-				$http.get('/scripts/JSON/clients.json').success(function(data){
+				$http.get('scripts/JSON/clients.json').success(function(data){
 					logos.clients = data;
 				});
 			},
@@ -91,7 +91,7 @@
 			controller: function(){
 				var page = this;
 				page.time = [];
-				$http.get('/scripts/JSON/timeline.json').success(function(data){
+				$http.get('scripts/JSON/timeline.json').success(function(data){
 					page.time=data;
 				})
 				.error(function(){
