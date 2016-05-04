@@ -7,7 +7,6 @@
  * Module for the index page of the application.
  */
  
-(function(){
 	
 	'use strict';
 	
@@ -110,4 +109,3 @@
 		};
 	});
 	
-})();
